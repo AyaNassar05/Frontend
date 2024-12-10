@@ -1,0 +1,3 @@
+def reverse_number(num):
+    reversed_str = ''.join(reversed(str(num)))
+    return int(reversed_str)
